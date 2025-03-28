@@ -1,0 +1,9 @@
+[0.020s] Invoking command in '/ros2_ws/build/tutorial_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /ros2_ws/build/tutorial_package -- -j8 -l8
+[0.040s] CMake Error at CMakeLists.txt:24:
+[0.040s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.040s] 
+[0.040s] 
+[0.040s] -- Configuring incomplete, errors occurred!
+[0.040s] See also "/ros2_ws/build/tutorial_package/CMakeFiles/CMakeOutput.log".
+[0.041s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.044s] Invoked command in '/ros2_ws/build/tutorial_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /ros2_ws/build/tutorial_package -- -j8 -l8
